@@ -1,0 +1,27 @@
+
+#navbarScrollingDropdown,
+#navbarScrollingDropdown > NavDropdown.Item{
+    color: white;
+    background-color: #212529;
+}
+
+.card-container {
+    display: flex ;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 300px
+}
+
+@media (max-width: 750px) {
+    .card-container {
+        display: flex ;
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
